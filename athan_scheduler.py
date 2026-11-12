@@ -88,7 +88,7 @@ def update_azuracast_schedule(prayer_times):
         "is_enabled": True,
         "weight": 10, # Crucial: High weight to override music
         "backend_options": ["interrupt", "single_track"],
-        "is_jingle": playlist_data.get('is_jingle', True)
+        "is_jingle": False
     }
     
     # 4. Push the update
